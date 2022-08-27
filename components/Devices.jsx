@@ -14,7 +14,7 @@ function Devices() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim
         </p>
-        <div className="absolute bottom-[-8px] ">
+        <div className="absolute bottom-[-8px] md:bottom-[-100px]">
           <Image src={DevicesImg} alt="Devices" />
         </div>
       </div>

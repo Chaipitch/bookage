@@ -22,15 +22,15 @@ export default function Home() {
           {
             speed: -15,
             children: (
-              <div className="absolute inset-0  flex flex-col items-center justify-center h-[773px] bg-[url('../public/images/banner.jpg')] bg-no-repeat  bg-center bg-cover">
+              <div className="absolute inset-0  flex flex-col items-center justify-center bg-[url('../public/images/banner.jpg')] bg-no-repeat bg-bottom  bg-cover">
                 <h1 className="text-[34px] mx-[27px] text-center text-white pt-24 pb-4 font-DroidSerif">
                   Lorem ipsum dolor sit amet consectetur adipisicing.
                 </h1>
-                <div className="flex flex-col space-y-2">
-                  <button className="bg-blueCustom px-24 py-3 ml-2 rounded-md font-Roboto text-white text-[16px]">
+                <div className="flex flex-col space-y-2 lg:flex-row">
+                  <button className="bg-blueCustom px-24 py-3 w-[363px]  font-Roboto text-white text-[16px]">
                     Purchase $8
                   </button>
-                  <button className="bg-white text-[16px] px-24 py-3 ml-2 rounded-md text-blueCustom font-Roboto">
+                  <button className="bg-white px-24 py-3 w-[363px] text-blueCustom font-Roboto ">
                     Free example
                   </button>
                 </div>
@@ -38,7 +38,7 @@ export default function Home() {
             ),
           },
         ]}
-        className="aspect-[0.6/1]"
+        className="aspect-[0.6/1] lg:aspect-[1.2/1] xl:aspect-[2/1]"
       />
       <About />
       <Example />
@@ -62,7 +62,7 @@ export default function Home() {
             ),
           },
         ]}
-        className="aspect-[0.6/1]"
+        className="aspect-[0.6/1] lg:aspect-[3/1]"
       />
       <Writer />
       <Devices />

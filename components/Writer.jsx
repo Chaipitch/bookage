@@ -20,14 +20,14 @@ function Writer() {
           officia deserunt mollit anim id est
         </p>
         <div className="flex">
-          <a className="mr-4">
-            <FaFacebookF />
+          <a className="mr-4 cursor-pointer">
+            <FaFacebookF size={25} />
           </a>
-          <a className="mr-4">
-            <FaTwitter />
+          <a className="mr-4  cursor-pointer">
+            <FaTwitter size={25} />
           </a>
-          <a className="mr-4">
-            <BsLine />
+          <a className="mr-4  cursor-pointer">
+            <BsLine size={25} />
           </a>
         </div>
       </div>

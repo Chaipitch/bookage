@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="h-[340px] bg-[#2C2C2C] flex flex-col items-center justify-between   py-[50px]">
-      <div className="flex flex-col items-center">
+    <div className="h-[340px] bg-[#2C2C2C] flex flex-col items-center justify-between  py-[50px] md:flex-row md:justify-around md:items-start md:h-[300px]">
+      <div className="flex flex-col items-start">
         <button className="bg-blueCustom text-white font-Roboto px-[140px] py-[15px]">
           Purchase $8
         </button>
@@ -12,7 +12,7 @@ function Footer() {
         </p>
       </div>
 
-      <div className=" flex flex-col items-center">
+      <div className=" flex flex-col items-start">
         <p className="text-white font-DroidSerif text-[16px]">
           Subscribe to Newsletter
         </p>
