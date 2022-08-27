@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Example from "@/components/Example";
 import Writer from "@/components/Writer";
 import Devices from "@/components/Devices";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -17,19 +18,19 @@ export default function Home() {
       <Navbar />
       <ParallaxBanner
         layers={[
-          { image: "/public/images/banner.jpg", speed: -15 },
+          { image: "#", speed: -15 },
           {
             speed: -15,
             children: (
               <div className="absolute inset-0  flex flex-col items-center justify-center h-[773px] bg-[url('../public/images/banner.jpg')] bg-no-repeat  bg-center bg-cover">
-                <h1 className="text-[36px] font-thin text-center text-white pt-24 pb-4">
+                <h1 className="text-[34px] mx-[27px] text-center text-white pt-24 pb-4 font-DroidSerif">
                   Lorem ipsum dolor sit amet consectetur adipisicing.
                 </h1>
                 <div className="flex flex-col space-y-2">
-                  <button className="bg-blueCustom px-24 py-3 ml-2 rounded-md">
+                  <button className="bg-blueCustom px-24 py-3 ml-2 rounded-md font-Roboto text-white text-[16px]">
                     Purchase $8
                   </button>
-                  <button className="bg-white px-24 py-3 ml-2 rounded-md text-blueCustom">
+                  <button className="bg-white text-[16px] px-24 py-3 ml-2 rounded-md text-blueCustom font-Roboto">
                     Free example
                   </button>
                 </div>
@@ -37,24 +38,26 @@ export default function Home() {
             ),
           },
         ]}
-        className="aspect-[0.66/1]"
+        className="aspect-[0.6/1]"
       />
       <About />
       <Example />
 
       <ParallaxBanner
         layers={[
-          { image: "/public/images/bg_testimonial.jpg", speed: -15 },
+          { image: "#", speed: -15 },
           {
             speed: -15,
             children: (
               <div className="absolute inset-0  flex flex-col items-center justify-center h-[] bg-[url('../public/images/bg_testimonial.jpg')] bg-no-repeat bg-cover bg-center">
-                <h1 className="text-xl font-thin text-center text-white  pb-4">
+                <h1 className="text-[24px] ml-[30px] mr-[14px] font-thin text-center text-white  pb-4 font-DroidSerif">
                   “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim”
                 </h1>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p className="font-RobotoL text-white text-[19px]">
+                  Lorem ipsum dolor sit ametur
+                </p>
               </div>
             ),
           },
@@ -63,6 +66,7 @@ export default function Home() {
       />
       <Writer />
       <Devices />
+      <Footer />
     </div>
   );
 }

@@ -8,9 +8,9 @@ function Writer() {
   return (
     <div className="h-screen pt-24 ">
       <div className="mx-[25px]">
-        <h1 className="text-xl mb-4">Lorem Ipsum</h1>
-        <p className="mb-4 text-blueCustom">Writer</p>
-        <p className="mb-8">
+        <h1 className="text-xl mb-4 font-DroidSerif">Lorem Ipsum</h1>
+        <p className="mb-4 text-blueCustom font-RobotoL">Writer</p>
+        <p className="mb-8 font-RobotoL">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

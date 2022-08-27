@@ -2,34 +2,31 @@
 @tailwind components;
 
 @layer base {
-  /* @font-face {
-    font-family: "DroidSerif";
-    font-weight: normal;
-    src: local("DroidSerif-Regular"),
-      url("/fonts/DroidSerif-Regular.ttf") format("ttf");
-  }
   @font-face {
     font-family: "DroidSerif";
-    font-weight: bold;
-    src: local("DroidSerif-Bold"),
-      url("/fonts/DroidSerif-Bold.ttf") format("ttf");
-  }
-  @font-face {
-    font-family: "Roboto";
-    font-weight: light;
-    src: local("Roboto-Light"), url("/fonts/Roboto-Light.ttf") format("ttf");
-  }
-  @font-face {
-    font-family: "Roboto";
-    font-weight: normal;
-    src: local("Roboto-Regular"), url("/fonts/Roboto-Regular.ttf") format("ttf");
-  } */
-  @font-face {
-    font-family: "Pacifico";
     font-weight: 400;
     font-style: normal;
-    src: url("/public/fonts/Pacifico-Regular.ttf") format("ttf");
+    src: url("/fonts/DroidSerif-Regular.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "DroidSerifB";
+    font-weight: normal;
+    src: url("/fonts/DroidSerif-Bold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Roboto";
+    font-weight: normal;
+    src: url("/fonts/Roboto-Regular.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "RobotoL";
+    font-weight: normal;
+    src: url("/fonts/Roboto-Light.woff2") format("woff2");
   }
 }
 
 @tailwind utilities;
+
+h1 {
+  font-family: "Pacifico";
+}

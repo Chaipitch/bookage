@@ -5,8 +5,10 @@ import BookImg from "/public/images/cover.png";
 function About() {
   return (
     <div className="h-screen mx-[27px] flex flex-col justify-center items-center pt-28 overflow-hidden">
-      <h1 className="text-center font-bold text-2xl">Lorem ipsum dolor sit.</h1>
-      <p className="text-center">
+      <h1 className="text-center font-bold text-2xl font-DroidSerif mt-[92px] mb-[23px]">
+        Lorem ipsum dolor sit.
+      </h1>
+      <p className="text-center font-RobotoL text-GrayCustom">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

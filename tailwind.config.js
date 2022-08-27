@@ -8,11 +8,13 @@ module.exports = {
     extend: {
       colors: {
         blueCustom: "#00aeef",
+        GrayCustom: "#666666",
       },
       fontFamily: {
-        Roboto: "Roboto",
         DroidSerif: "DroidSerif",
-        Pacifico: "Pacifico",
+        DroidSerifB: "DroidSerifB",
+        Roboto: "Roboto",
+        RobotoL: "RobotoL",
       },
     },
   },
