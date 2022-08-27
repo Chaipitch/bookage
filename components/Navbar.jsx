@@ -33,7 +33,7 @@ function Navbar() {
     <nav
       className={
         scroll
-          ? "fixed pt-[25px] pb-4 w-full z-10 bg-white/0 backdrop-blur-lg shadow-lg ease-in duration-300 md:px-[100px] xl:px-[150px]"
+          ? "fixed pt-[25px] pb-4 w-full z-10 bg-white/40 backdrop-blur-lg shadow-lg ease-in duration-300 md:px-[100px] xl:px-[150px]"
           : "fixed pt-[37px] pb-4 w-full z-10 ease-in duration-300 md:px-[100px] xl:px-[150px]"
       }
     >

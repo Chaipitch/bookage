@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="h-[340px] bg-[#2C2C2C] flex flex-col items-center justify-between  py-[50px] md:flex-row md:justify-around md:items-start md:h-[300px]">
       <div className="flex flex-col items-start">
-        <button className="bg-blueCustom text-white font-Roboto px-[140px] py-[15px]">
+        <button className="bg-blueCustom text-white font-Roboto px-[140px] py-[15px] md:px-[40px]">
           Purchase $8
         </button>
         <p className="text-white font-RobotoL pt-[20px] text-[14px]">
@@ -22,7 +22,7 @@ function Footer() {
             type="text "
             placeholder="Your email"
           />
-          <button className="bg-blueCustom text-[16px] text-white font-Roboto h-[50px] absolute right-0 px-[25px] ">
+          <button className="bg-blueCustom text-[16px] text-white font-Roboto h-[50px] absolute right-0 px-[25px]">
             Subscribe
           </button>
         </div>

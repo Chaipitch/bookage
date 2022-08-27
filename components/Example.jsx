@@ -7,7 +7,7 @@ function Example() {
         Example Pages
       </h1>
 
-      <div className="lg:flex lg:justify-center lg:space-x-8">
+      <div className="xl:flex xl:justify-center xl:space-x-8">
         <div>
           <div className="border-2 border=[#DDDDDD] h-[480px] w-[360px] mx-auto mt-[50px] ">
             <div className="mx-[36px] mt-[50px]">
