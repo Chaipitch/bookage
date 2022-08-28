@@ -6,7 +6,10 @@ import WriterImg from "/public/images/writer.jpg";
 
 function Writer() {
   return (
-    <div className="h-fit pt-24 md:pt-0 md:flex md:items-center md:justify-center md:space-x-10 md:h-[600px] md:mx-[90px] lg:mx-[120px] lg:h-[430px] xl:h-fit xl:mx-[150px]">
+    <div
+      id="writer"
+      className="h-fit pt-24 md:pt-0 md:flex md:items-center md:justify-center md:space-x-10 md:h-[600px] md:mx-[90px] lg:mx-[120px] lg:h-[430px] xl:h-fit xl:mx-[150px]"
+    >
       <div className="mx-[25px] md:w-[300px]">
         <h1 className="text-xl mb-4 font-DroidSerif">Lorem Ipsum</h1>
         <p className="mb-4 text-blueCustom font-RobotoL">Writer</p>

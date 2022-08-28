@@ -3,7 +3,6 @@ import logo from "../public/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
-// import { Link } from "react-scroll";
 
 function Navbar() {
   const [scroll, setScroll] = useState(false);
@@ -50,27 +49,17 @@ function Navbar() {
         <ul className="hidden lg:flex">
           <li className="mr-4 border-b-2 border-transparent hover:border-black">
             <Link href="/" to="home" smooth={true} duration={500}>
-              Home
+              Purchase
             </Link>
           </li>
           <li className="mr-4 border-b-2 border-transparent hover:border-black">
-            <Link href="/" to="about" smooth={true} duration={500}>
-              About
+            <Link href="/#example" to="about" smooth={true} duration={500}>
+              Example
             </Link>
           </li>
           <li className="mr-4 border-b-2 border-transparent hover:border-black">
-            <Link href="/" to="skills" smooth={true} duration={500}>
-              Skills
-            </Link>
-          </li>
-          <li className="mr-4 border-b-2 border-transparent hover:border-black">
-            <Link href="/" to="work" smooth={true} duration={500}>
-              Work
-            </Link>
-          </li>
-          <li className="mr-4 border-b-2 border-transparent hover:border-black">
-            <Link href="/" to="contact" smooth={true} duration={500}>
-              Contact
+            <Link href="/#writer" to="skills" smooth={true} duration={500}>
+              Writer
             </Link>
           </li>
         </ul>
@@ -89,7 +78,10 @@ function Navbar() {
           }
         >
           <div className="w-full">
-            <li className=" border-b-2 pb-[16px] mb-2 w-full text-2xl font-Roboto">
+            <li
+              onClick={navToggle}
+              className=" border-b-2 pb-[16px] mb-2 w-full text-2xl font-Roboto"
+            >
               <Link
                 className="btn btn-ghost text-1xl "
                 to="home"
@@ -100,7 +92,10 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className=" border-b-2 pb-[16px] mb-2 w-full text-2xl font-Roboto">
+            <li
+              onClick={navToggle}
+              className=" border-b-2 pb-[16px] mb-2 w-full text-2xl font-Roboto"
+            >
               <Link
                 className="btn btn-ghost text-1xl "
                 to="home"
@@ -111,24 +106,30 @@ function Navbar() {
                 Purchase
               </Link>
             </li>
-            <li className=" border-b-2 pb-[16px] mb-2 w-full text-2xl font-Roboto">
+            <li
+              onClick={navToggle}
+              className=" border-b-2 pb-[16px] mb-2 w-full text-2xl font-Roboto"
+            >
               <Link
                 className="btn btn-ghost text-1xl "
                 to="home"
                 smooth={true}
                 duration={500}
-                href="/"
+                href="/#example"
               >
                 Example
               </Link>
             </li>
-            <li className="  pb-[16px] mb-2 w-full text-2xl font-Roboto">
+            <li
+              onClick={navToggle}
+              className="pb-[16px] mb-2 w-full text-2xl font-Roboto"
+            >
               <Link
                 className="btn btn-ghost text-1xl"
                 to="home"
                 smooth={true}
                 duration={500}
-                href="/"
+                href="/#writer"
               >
                 Writer
               </Link>

@@ -22,7 +22,10 @@ export default function Home() {
           {
             speed: -15,
             children: (
-              <div className="absolute inset-0  flex flex-col items-center justify-center bg-[url('../public/images/banner.jpg')] bg-no-repeat bg-bottom  bg-cover">
+              <div
+                id="home"
+                className="absolute inset-0  flex flex-col items-center justify-center bg-[url('../public/images/banner.jpg')] bg-no-repeat bg-bottom  bg-cover"
+              >
                 <h1 className="text-[34px] mx-[27px] text-center text-white pt-24 pb-4 font-DroidSerif">
                   Lorem ipsum dolor sit amet consectetur adipisicing.
                 </h1>

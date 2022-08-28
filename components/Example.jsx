@@ -2,7 +2,7 @@ import React from "react";
 
 function Example() {
   return (
-    <div className=" bg-[#F7F7F7] z-10 pt-[79px] pb-[120px]">
+    <div id="example" className=" bg-[#F7F7F7] z-10 pt-[79px] pb-[120px]">
       <h1 className="text-center text-black text-[24px] font-DroidSerif">
         Example Pages
       </h1>
