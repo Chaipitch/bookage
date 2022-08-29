@@ -4,7 +4,7 @@ import BookImg from "/public/images/cover.png";
 
 function About() {
   return (
-    <div className="h-fit mx-[27px] flex flex-col justify-center items-center pt-18 overflow-hidden md:h-4/5 xl:h-[600px] xl:flex xl:flex-row-reverse xl:px-[150px]">
+    <div className="h-[900px] mx-[27px] flex flex-col justify-center items-center pt-18 overflow-hidden md:h-[800px] xl:h-[580px] xl:flex xl:flex-row-reverse xl:px-[150px]">
       <div className="xl:max-w-[458px] xl:ml-20">
         <h1 className="text-center font-bold text-2xl font-DroidSerif mt-[92px] mb-[23px] xl:text-start">
           Lorem ipsum dolor sit.

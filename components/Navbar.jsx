@@ -47,17 +47,17 @@ function Navbar() {
 
         {/* desktop menu */}
         <ul className="hidden lg:flex">
-          <li className="mr-4 border-b-2 border-transparent hover:border-black">
+          <li className="mr-[30px] font-Roboto text-[16px] border-b-2 border-transparent hover:border-black">
             <Link href="/" to="home" smooth={true} duration={500}>
               Purchase
             </Link>
           </li>
-          <li className="mr-4 border-b-2 border-transparent hover:border-black">
+          <li className="mr-[30px] font-Roboto text-[16px] border-b-2 border-transparent hover:border-black">
             <Link href="/#example" to="about" smooth={true} duration={500}>
               Example
             </Link>
           </li>
-          <li className="mr-4 border-b-2 border-transparent hover:border-black">
+          <li className="mr-[30px] font-Roboto text-[16px] border-b-2 border-transparent hover:border-black">
             <Link href="/#writer" to="skills" smooth={true} duration={500}>
               Writer
             </Link>

@@ -65,7 +65,7 @@ export default function Home() {
             ),
           },
         ]}
-        className="aspect-[0.6/1] md:aspect-[2/1] lg:aspect-[3/1]"
+        className="aspect-[0.6/1] md:aspect-[2/1] lg:aspect-[4/1]"
       />
       <Writer />
       <Devices />
