@@ -4,7 +4,7 @@ import DevicesImg from "public/images/devices.png";
 
 function Devices() {
   return (
-    <div className="relative h-[420px] px-[25px] bg-blueCustom  flex flex-col justify-start items-center overflow-hidden lg:h-[700px]">
+    <div className="relative h-[420px] px-[25px] bg-blueCustom  flex flex-col justify-start items-center overflow-hidden lg:h-[650px] xl:h-[700px]">
       <div className="pt-20 ">
         <h1 className="text-center text-white font-DroidSerif text-[30px]">
           Lorem ipsum

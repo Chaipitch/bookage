@@ -26,14 +26,14 @@ export default function Home() {
                 id="home"
                 className="absolute inset-0  flex flex-col items-center justify-center bg-[url('../public/images/banner.jpg')] bg-no-repeat bg-bottom  bg-cover"
               >
-                <h1 className="text-[34px] mx-[27px] text-center text-white pt-24 pb-4 font-DroidSerif">
+                <h1 className="text-[34px] mx-[27px] text-center text-white pt-24 pb-4 font-DroidSerif md:w-[660px]">
                   Lorem ipsum dolor sit amet consectetur adipisicing.
                 </h1>
-                <div className="flex flex-col space-y-2 lg:flex-row lg:space-y-0">
-                  <button className="bg-blueCustom px-24 py-3 w-[363px]  font-Roboto text-white text-[16px] lg:mr-4 md:w-fit">
+                <div className="flex flex-col justify-center space-y-2 md:flex-row md:space-x-4 md:space-y-0">
+                  <button className="bg-blueCustom px-[135px] py-[14px] text-white font-Roboto md:px-[40px] md:py-[13px]">
                     Purchase $8
                   </button>
-                  <button className="bg-white px-24 py-3 w-[363px] text-blueCustom font-Roboto md:w-fit">
+                  <button className="bg-white text-blueCustom px-[135px] py-[14px] font-Roboto md:px-[40px]  md:py-[13px]">
                     Free example
                   </button>
                 </div>
