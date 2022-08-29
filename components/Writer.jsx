@@ -8,7 +8,7 @@ function Writer() {
   return (
     <div
       id="writer"
-      className="h-[720px] pt-[90px] px-[25px] overflow-hidden md:px-[150px] md:flex md:justify-center md:items-center md:h-[600px]"
+      className="h-[720px] pt-[90px] px-[25px] overflow-hidden md:px-[60px] md:pt-[25px] md:flex md:justify-center md:items-center md:h-[500px] lg:h-[580px]"
     >
       <div>
         <div>
@@ -39,7 +39,7 @@ function Writer() {
           </a>
         </div>
       </div>
-      <div className="">
+      <div>
         <Image src={WriterImg} alt="#" />
       </div>
     </div>

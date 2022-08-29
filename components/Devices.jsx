@@ -15,7 +15,7 @@ function Devices() {
           minim
         </p>
       </div>
-      <div className="absolute px-[18px] mt-72">
+      <div className="absolute px-[18px] mt-72 md:mt-60 md:w-[600px] lg:mt-72 lg:w-fit">
         <Image src={DevicesImg} alt="#" />
       </div>
     </div>

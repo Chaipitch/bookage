@@ -32,18 +32,20 @@ function Navbar() {
     <nav
       className={
         scroll
-          ? "fixed pt-[25px] pb-4 w-full z-10 bg-white/40 backdrop-blur-lg shadow-lg ease-in duration-300 md:px-[100px] xl:px-[150px]"
-          : "fixed pt-[37px] pb-4 w-full z-10 ease-in duration-300 md:px-[100px] xl:px-[150px]"
+          ? "fixed pt-[25px] pb-4 w-full z-10 bg-white/40 backdrop-blur-lg shadow-lg ease-in duration-300 md:px-[40px] xl:px-[150px]"
+          : "fixed pt-[37px] pb-4 w-full z-10 ease-in duration-300 md:px-[40px] xl:px-[150px]"
       }
     >
       <div className="mx-[27px] flex items-center justify-between">
-        <Image
-          className="z-50"
-          height="38px"
-          width="135px"
-          src={logo}
-          alt="logoImage"
-        />
+        <Link className="link" href="/">
+          <Image
+            className="z-50 cursor-pointer"
+            height="38px"
+            width="135px"
+            src={logo}
+            alt="logoImage"
+          />
+        </Link>
 
         {/* desktop menu */}
         <ul className="hidden lg:flex">
