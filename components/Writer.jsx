@@ -28,14 +28,23 @@ function Writer() {
         </div>
         {/* social icons */}
         <div className="flex py-4">
-          <a className="mr-4 cursor-pointer">
-            <FaFacebookF size={20} />
+          <a className="mr-4 cursor-pointer ">
+            <FaFacebookF
+              className="hover:fill-blueCustom ease-in-out duration-300"
+              size={20}
+            />
           </a>
           <a className="mr-4  cursor-pointer">
-            <FaTwitter size={20} />
+            <FaTwitter
+              className="hover:fill-blueCustom ease-in-out duration-300"
+              size={20}
+            />
           </a>
           <a className="mr-4  cursor-pointer">
-            <BsLine size={20} />
+            <BsLine
+              className="hover:fill-blueCustom ease-in-out duration-300"
+              size={20}
+            />
           </a>
         </div>
       </div>
