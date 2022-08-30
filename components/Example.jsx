@@ -9,7 +9,7 @@ function Example() {
 
       <div className="xl:flex xl:justify-center xl:space-x-8">
         <div>
-          <div className="border-2 border=[#DDDDDD] h-[480px] w-[360px] mx-auto mt-[50px] ">
+          <div className="border-2 border=[#DDDDDD] h-[480px] w-[360px] mx-auto mt-[50px] bg-white">
             <div className="mx-[36px] mt-[50px]">
               <h1 className="border-b-2 border-[#DDDDDD] pb-[15px] font-DroidSerif">
                 Page 1
@@ -28,10 +28,10 @@ function Example() {
               </button>
             </div>
           </div>
-          <div className="border-2 border-t-0 border=[#DDDDDD] w-[343px] h-[11px] mx-auto "></div>
+          <div className="border-2 border-t-0 border=[#DDDDDD] w-[343px] h-[11px] mx-auto bg-white"></div>
         </div>
         <div>
-          <div className="border-2 border=[#DDDDDD] h-[480px] w-[360px] mx-auto mt-[50px]">
+          <div className="border-2 border=[#DDDDDD] h-[480px] w-[360px] mx-auto mt-[50px] bg-white">
             <div className="mx-[36px] mt-[50px]">
               <h1 className="border-b-2 border-[#DDDDDD] pb-[15px] font-DroidSerif">
                 Page 50
@@ -50,10 +50,10 @@ function Example() {
               </button>
             </div>
           </div>
-          <div className="border-2 border-t-0 border=[#DDDDDD] w-[343px] h-[11px] mx-auto "></div>
+          <div className="border-2 border-t-0 border=[#DDDDDD] w-[343px] h-[11px] mx-auto bg-white"></div>
         </div>
         <div>
-          <div className="border-2 border=[#DDDDDD] h-[480px] w-[360px] mx-auto mt-[50px]">
+          <div className="border-2 border=[#DDDDDD] h-[480px] w-[360px] mx-auto mt-[50px] bg-white">
             <div className="mx-[36px] mt-[50px]">
               <h1 className="border-b-2 border-[#DDDDDD] pb-[15px] font-DroidSerif">
                 Page 100
@@ -72,7 +72,7 @@ function Example() {
               </button>
             </div>
           </div>
-          <div className="border-2 border-t-0 border=[#DDDDDD] w-[343px] h-[11px] mx-auto"></div>
+          <div className="border-2 border-t-0 border=[#DDDDDD] w-[343px] h-[11px] mx-auto bg-white"></div>
         </div>
       </div>
     </div>
