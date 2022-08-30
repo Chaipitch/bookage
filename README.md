@@ -1,3 +1,6 @@
+Message from Chaipitch:
+If it is your first time opening ReactJS code base. Open the folder in VSCode the n in the terminal( ctrl + ` ) use this command "npm install" after the installation is finished, use this command "cd bookage" then after that run "npm run dev" to open the website on localhost:3000 or follow the link from terminal.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
